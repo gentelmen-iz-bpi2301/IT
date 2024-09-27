@@ -7,7 +7,7 @@ public class Main {
         Film movie1 = new Film("Груз 200", "Алексей Балабанов", 2007, 90.0, "Алексей Балабанов");
         movie1.displayInfo();
         
-        movie1.HowMuchTimeToTheEnd(100);
+        movie1.HowMuchTimeToTheEnd(50);
 
         Musical musical1 = new Musical("Ла-Ла Ленд", "Дэмьен Шазелл", 2016, 128, "Дэмьен Шазелл");
         musical1.displayInfo();
