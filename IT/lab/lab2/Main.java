@@ -20,5 +20,9 @@ public class Main {
         audiobook2.setReader("Саймон Преббл");
         
         audiobook2.displayInfo();
+
+        
+        Documentary doc1 = new Documentary("Наша планета", "Дэвид Аттенборо", 2019, 50.0, "Аластер Фотергилл", "Природа", "Дэвид Аттенборо");
+        doc1.displayInfo();
     }
 }

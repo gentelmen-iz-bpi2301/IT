@@ -2,12 +2,14 @@ class Film extends Book {
     private double Film_duration;
     private String director;
     private static int movieCount = 0;
+    
     public Film() {
         super();
         this.Film_duration = 0.0;
         this.director = "Unknown";
         movieCount++;
     }
+    
     public Film(String title, String author, int year, double Film_duration, String director) {
         super(title, author, year);
         this.Film_duration = Film_duration;
