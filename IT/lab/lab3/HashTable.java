@@ -13,7 +13,7 @@ class HashTable<K, V> {
 private LinkedList<Entry<K, V>>[] table;
 private int size;
 
-@SuppressWarnings("unchecked")
+
 public HashTable(int cap) {
     table = new LinkedList[cap];
     for (int i = 0; i < cap; i++) {

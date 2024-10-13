@@ -20,7 +20,7 @@ public class main{
         System.out.println("Ого, клавиатуры пользуются большим спросом! К сожалению, они уже закончились. Оставшееся количество позиций: "+productsTable.size());
 
         if (productsTable.isEmpty()==true){
-            System.out.println("Упс, кажется никаких товаров нет в наличии");
+            System.out.println("Упс, кажется никаких товаров нет в наличии:(");
         }
         else{
             System.out.println("Вы можете присмотреть себе что-то новенькое!!");
