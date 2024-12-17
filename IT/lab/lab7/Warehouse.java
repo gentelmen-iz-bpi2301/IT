@@ -53,7 +53,7 @@ public class Warehouse {
                     Thread.sleep(1000);
 
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    System.err.println("Поток был прерван: "+e);
                 } finally {
                     semaphore.release();
                 }

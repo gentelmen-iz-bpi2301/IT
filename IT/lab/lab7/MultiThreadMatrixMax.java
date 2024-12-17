@@ -34,13 +34,14 @@ public class MultiThreadMatrixMax {
                 overallMax = Math.max(overallMax, future.get());
             }
         }
-        catch (InterruptedException e){
-            System.err.println(e);
-        }
         catch (ExecutionException e){
             System.err.println(e);
         }
 
+        catch (InterruptedException e){
+            System.err.println(e);
+        }
+        
         finally{
             executor.shutdown();
         }
